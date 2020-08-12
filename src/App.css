@@ -1,38 +1,69 @@
-.App {
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-image: url("/descarga.jpg");
+}
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: dimgrey;
+  height: 80px;
+}
+.boton-header{
+  width: 50%;
+  text-align: center;
+  color: white;
+ 
+}
+a:hover{
+  text-decoration:none;
+  color: black;
+}
+h1.titulo{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+form{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+form input{
+  width: 41em;
+    border-radius: 11px;
+    
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+form button{
+  width: 5em;
+    border-radius: 11px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.contenedor-img{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  justify-content: space-around;
 }
-
-.App-link {
-  color: #61dafb;
+.gifs{
+  width: 40%;
+  border: black 2px solid;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.titulo-gif{
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  
+}
+.img{
+  margin: auto;
+}
+.gifs-tren{
+  width: 80%;
+    margin: auto;
+    border: black solid 2px;
+    margin-top: 60px;
 }
